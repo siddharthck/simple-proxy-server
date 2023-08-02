@@ -7,3 +7,9 @@
 
 ## Squid access logs :
  - in dir : /var/log/squid/access.log
+
+## How to check if proxy is working ? 
+
+ - curl "www.gogle.com" -x "http://test:test@127.0.0.1:8080"
+
+ You would see some entries in /var/log/squid/access.log
